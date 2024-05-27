@@ -1,11 +1,10 @@
-# AnglimModifiedProjectTemplate (v 0.5.2)
+# Modified Project Template for the Vincent-Ruz Lab
+
+The template and this readme has been adapted from AnglimModifiedProjectTemplate (v 0.5.2)
 
 ProjectTemplate is an R Package which facilitates data analysis with R. It makes it easy to start a new data analysis project. In short, **ProjectTemplate is awesome and worth learning**.
 
-I have modified the default ProjectTemplate folder structure to align more with my workflow. 
-However, I think these tweaks should be useful for others.
-More information is described below.
-
+The original ProjectTemplate folder structure has been modified to align with the Vincent-Ruz Lab Workflow and data policies. 
 
 # System Requirements
 * Install R https://cran.rstudio.com/
@@ -17,11 +16,10 @@ In addition:
 * Install any dependencies of these R packages. In particular, if you use xls files to store some data. You may need to install Perl: http://www.perl.org/get.html ; OSX and Linux generally come with perl installed; On Windows OS you need to install it.
 * If you want to be able to knit to pdf, then get a TeX distribution (https://www.latex-project.org/get/); otherwise, just knit to Word or HTML.
 
-
 # Getting Started with a New Data Analysis Project
 If you want to use this workflow for doing data analysis, adopt the following steps:
 
-* [Download a zip file of the AnglimModifiedProjectTemplate](https://github.com/jeromyanglim/AnglimModifiedProjectTemplate/archive/master.zip)
+* [Download a zip file of the ProjectTemplateVRLab](https://github.com/Vincent-Ruz-Lab-NMSU/ProjectTemplateVRLab/master.zip)
 * Unzip this file in an appropriate location and give both the directory and the RStudio project file (i.e., `InsertProjectNameHere.Rproj`) a name corresponding to your project
 * Open in Rstudio by clicking the `.Rproj` file (this helps to ensure that the R working directory is correct) 
 * Prepare raw-data (i.e., ensure name of data file is what you want it to be in R) and add to `data` directory
@@ -62,7 +60,7 @@ For some steps, you have the choice between refreshing the project or adopting a
 * [Tutorial on confirmatory factor analyais using lavaan and ProjectTemplate](https://www.youtube.com/watch?v=gcrXP2yMYY8)
 
 
-# Change log
+# Change log from AnglimModifiedProjectTemplate (v 0.5.2)
 
 v. 0.6
 
