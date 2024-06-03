@@ -1,6 +1,6 @@
 data_loading: FALSE
 cache_loading: FALSE
-munging: FALSE
+munging: TRUE
 logging: FALSE
 load_libraries: TRUE
 libraries: psych, Hmisc, ggplot2, readxl, foreign, lme4, lavaan, tidyverse
